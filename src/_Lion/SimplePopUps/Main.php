@@ -27,12 +27,12 @@ class Main extends PluginBase implements Listener{
             
 		switch($command->getName()){
 			case "pop-up":
-                            $msg=$args[0];                           
+                            $msg=implode("", $args);                         
                             $this->popup($msg);
                             $sender->sendMessage(TextFormat::GREEN."Done!");
                             return true;
                         case "tip":
-                            $msg=$args[0];                            
+                            $msg=implode("", $args);                            
                             $this->tip($msg); 
                             $sender->sendMessage(TextFormat::GREEN."Done!");
                             return true;
