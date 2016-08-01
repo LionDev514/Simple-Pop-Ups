@@ -38,10 +38,10 @@ class Main extends PluginBase implements Listener{
                             return true;
 		}
 	}
-        public function popup($ms,$pl=[]){
+        public function popup($ms){
               $this->getServer()->broadcastPopup($ms);
         }
-        public function tip($ms,$pl=NULL){            
+        public function tip($ms){            
                 $this->getServer()->broadcastTip($ms);
         }
 
