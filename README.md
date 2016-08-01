@@ -1,5 +1,5 @@
 # Simple-Pop-Ups
-This is a pocketmine plugin for display popups and tips
+This is a pocketmine plugin for display popups and tips.
 Get the .phar file [Here](http://forums.pocketmine.net/plugins/simple-pop-ups.2070/)
 
 ## Commands:
